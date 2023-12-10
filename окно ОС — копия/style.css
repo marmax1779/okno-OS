@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*position: absolute;*/
+
+}
+
+.container-title__button {
+    height: 40px;
+    width: 120px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: rgb(83, 83, 237);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.click-style {
+    height: 35px;
+    width: 125px;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+.popup-reg {
+    display: none;
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    top: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 3s;
+}
+
+.show {
+    position: relative;
+    display: block;
+}
+
+.input-form {
+    border-radius: 10px;
+    height: 30px;
+    border-width: 1px;
+}
+
+.container-info {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-filed {
+    width: 90px;
+}
+
+.button-push {
+    height: 40px;
+    width: 120px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: rgb(83, 83, 237);
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 60px;
+}
